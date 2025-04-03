@@ -1,9 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
+import GameBoard from '../../../components/gameBoard';
 
 export default function GameScreen() {
     return (
     <View style={styles.container}>
-        <Text>COMPUTER GAME TIME!</Text>
+        <GameBoard/>
     </View>
     );
 }
