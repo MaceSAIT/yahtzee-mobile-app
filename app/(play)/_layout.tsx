@@ -1,7 +1,7 @@
 import { Stack } from "expo-router";
 
 
-export default function RootLayout() {
+export default function PlayLayout() {
     return (
         <Stack
             screenOptions=
@@ -9,9 +9,10 @@ export default function RootLayout() {
                     headerShown: false,
                 }}>
             <Stack.Screen name="index" />
-            <Stack.Screen name="modal" options={{presentation: 'modal', animation: 'slide_from_bottom'}}/>
-            <Stack.Screen name="(play)" />
-            <Stack.Screen name="options" />
+            <Stack.Screen name="(game)" />
+            <Stack.Screen name="difficulty" />
+            <Stack.Screen name="(computer)" />
+
         </Stack>
     )
 }
