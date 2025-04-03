@@ -13,7 +13,6 @@ export enum Category {
     FULL_HOUSE = 'Full House',
     SMALL_STRAIGHT = 'Small Straight',
     LARGE_STRAIGHT = 'Large Straight',
-    YAHTZEE = 'Yahtzee',
     CHANCE = 'Chance'
   }
   
@@ -34,7 +33,6 @@ export enum Category {
     Category.FULL_HOUSE,
     Category.SMALL_STRAIGHT,
     Category.LARGE_STRAIGHT,
-    Category.YAHTZEE,
     Category.CHANCE
   ];
   
